@@ -1,0 +1,105 @@
+# Note: Template blocks require a 'weight' parameter so they're correctly ordered on the landing page
+
+# Hero
+hero:
+  enable: true
+  weight: 10
+
+  # backgroundImage:
+    # path: "images/templates/hero"
+    #filename:
+      #desktop: "gradient-desktop.webp"
+      #mobile: "gradient-mobile.webp"
+
+  # badge:
+  #   text: v0.0.2
+  #   color: primary # primary, secondary, success, danger, warning, info, light, dark
+  #   pill: false # boolean
+  #   soft: true # boolean
+
+  # titleLogo:
+  #   path: "images/logos"
+  #   filename: "title_logo.png"
+  #   alt: "Lotus Docs Logo"
+  #   height: 80px
+
+  title: "New Frameworks"
+  subtitle: "to Preserve and Publish Born-Digital Art"
+
+  image:
+    path: "images" # path to image under configured assets directory. default 'images'
+    filename: "newframeworks.jpg" # filename of your hero image (including file extension)
+    alt: "Some of the New Frameworks team" # Optional but recommended
+    boxShadow: true # default 'false' (excludes .svg images)
+    #rounded:  # round the image corners? default 'false' (excludes .svg images)
+
+  ctaButton:
+    icon: brush
+    btnText: "Artists"
+    url: "/docs/artists"
+  cta2Button:
+    icon: diversity_2
+    btnText: "Meet the team"
+    url: "/docs/team"
+
+  info: "This project will develop new frameworks for the long-term preservation and presentation of born-digital art. Preserving born-digital work can be challenging because platforms, hardware, and software are often updated or replaced, changing and even degrading how the original art is displayed. Through \"containerization\" — a portable, low-cost method of preserving and presenting the code, operating system, and text for experimental, born-digital art — future readers will still be able to view, distribute, collaborate on, and experiment with the original work even if its infrastructure has been altered or discontinued.\n
+
+  Marzipan tart gummies gingerbread chupa chups. Soufflé tootsie roll candy fruitcake pie. Tootsie roll jujubes cheesecake cheesecake cupcake chupa chups oat cake powder. Dessert topping chocolate marzipan bonbon danish. Powder toffee sweet roll dragée marshmallow icing chocolate gummies marzipan. Toffee sesame snaps topping candy chupa chups apple pie caramels. Dessert cake marshmallow jelly beans gummies jelly-o gummies. Candy canes lemon drops dragée fruitcake cookie candy jelly. Jelly beans brownie pie tiramisu marzipan gingerbread caramels sesame snaps.\n
+
+  Tart candy dessert croissant wafer gummi bears gingerbread. Icing liquorice liquorice jelly beans wafer. Sesame snaps marzipan muffin bonbon lemon drops. Jujubes croissant jelly shortbread marshmallow jujubes cupcake pastry. Gingerbread gummi bears sweet roll icing icing. Gummi bears chupa chups muffin sesame snaps croissant."
+
+# Features Grid
+features:
+  enable: true
+  weight: 20
+
+  title: Project goals
+  #subtitle: Lotus Docs is a highly configurable Hugo documentation theme. Yet, with the default configuration you can deploy and publish your documentation site in a matter of minutes. Check out some core features below.
+
+  items:
+    - title: Containers
+      icon: deployed_code
+      description: We will work to create new and reproducible frameworks to preserve and publish works using containerization, interfaces to view the containers, documentation to describe the work, and videos to capture the work in its original instantiation.
+
+    - title: Sharable
+      icon: hub
+      description: The models we create need to have repository templates and interoperable data with the largest organizations in the electronic literature field (elmcip, electronic literature organization)
+
+    - title: Preserve
+      icon: photo_album
+      description: Preserve a copy of the text, where allowable by the artists, that can be used by researchers to study born-digital work for machine - actionable research. Can digital humanists study heterogeneous born - digital art utilizing distant reading ?
+
+    - title: Support
+      icon: person_add
+      description: This project aims to explore reproducible models to preserve multimedia works that are otherwise difficult to preserve. This is a particularly hard problem for early career or independent artists who do not have the benefit of institutional support. This project aims to help support those artists for which there is not currently much support available.
+
+# Team
+team:
+    enable: true
+    weight: 30
+
+    title: The Team
+    # subtitle: the people who work on New Frameworks
+    url: "/docs/team"
+
+    items:
+      - title: John Cayley
+        description: Co-PI, Faculty Director
+
+      - title: Ashley Champagne
+        description: PI, Project Director
+
+      - title: Patrick Rashleigh
+        description: Technical Lead
+
+      - title: Cody Carvel
+        description: Hosting Infrastructure Specialist
+
+      - title: Hilary Wang
+        description: Digital Archivist
+
+      - title: Mairelys Lemus-Rojas
+        description: Metadata Lead
+
+      - title: Elizabeth Yalkut
+        description: Front-End Developer
