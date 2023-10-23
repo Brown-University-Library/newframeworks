@@ -1,7 +1,6 @@
 baseURL = '/'
 languageCode = 'en-us'
 title = 'New Frameworks to Preserve and Publish Born-Digital Art'
-# theme = 'lotusdocs-cds'
 
 [module]
     [[module.imports]]
@@ -11,16 +10,22 @@ title = 'New Frameworks to Preserve and Publish Born-Digital Art'
         path = "github.com/gohugoio/hugo-mod-bootstrap-scss/v5"
         disable = false
 
-[params]
+# [markup]
+  # [markup.goldmark]
+    # [markup.goldmark.renderer]
+      #unsafe = true # https://jdhao.github.io/2019/12/29/hugo_html_not_shown/
 
+[params]
     [params.footer]
-        copyright = "[Center for Digital Scholarship](https://library.brown.edu/create/cds/), Brown University Library"
+        copyright = "A project of the [Center for Digital Scholarship](https://library.brown.edu/create/cds/), Brown University Library"
 
     [params.docs]
         darkMode = true
         themeColor = 'blue' # (optional) - Set theme accent colour. Options include: blue (default), green, red, yellow, emerald, cardinal, magenta, cyan
         titleIcon = true
         navDesc = true
+        navDescTrunc = 150
+        listDescTrunc = 150
         extLinkNewTab = false
         lastMod = true
 

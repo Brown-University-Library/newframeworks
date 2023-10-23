@@ -37,10 +37,10 @@ hero:
     icon: brush
     btnText: "Artists"
     url: "/docs/artists"
-  cta2Button:
-    icon: diversity_2
-    btnText: "Meet the team"
-    url: "/docs/team"
+  #cta2Button:
+    #icon: diversity_2
+    #btnText: "Meet the team"
+    #url: "/docs/team"
 
   info: "This project will develop new frameworks for the long-term preservation and presentation of born-digital art. Preserving born-digital work can be challenging because platforms, hardware, and software are often updated or replaced, changing and even degrading how the original art is displayed. Through \"containerization\" — a portable, low-cost method of preserving and presenting the code, operating system, and text for experimental, born-digital art — future readers will still be able to view, distribute, collaborate on, and experiment with the original work even if its infrastructure has been altered or discontinued.\n
 
@@ -73,33 +73,6 @@ features:
       icon: person_add
       description: This project aims to explore reproducible models to preserve multimedia works that are otherwise difficult to preserve. This is a particularly hard problem for early career or independent artists who do not have the benefit of institutional support. This project aims to help support those artists for which there is not currently much support available.
 
-# Team
-team:
-    enable: true
-    weight: 30
-
-    title: The Team
-    # subtitle: the people who work on New Frameworks
-    url: "/docs/team"
-
-    items:
-      - title: John Cayley
-        description: Co-PI, Faculty Director
-
-      - title: Ashley Champagne
-        description: PI, Project Director
-
-      - title: Patrick Rashleigh
-        description: Technical Lead
-
-      - title: Cody Carvel
-        description: Hosting Infrastructure Specialist
-
-      - title: Hilary Wang
-        description: Digital Archivist
-
-      - title: Mairelys Lemus-Rojas
-        description: Metadata Lead
-
-      - title: Elizabeth Yalkut
-        description: Front-End Developer
+# Disables image comparison section
+image_compare:
+  enable: true
