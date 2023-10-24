@@ -6,7 +6,7 @@ date: "2023-08-22T13:34:03-04:00"
 lastmod: "2023-08-22T13:34:03-04:00"
 draft: true
 toc: true
-weight: 20
+weight: 700
 ---
 
 If we wanted to put example code in the site for the edification of readers, we could do so:

@@ -1,5 +1,5 @@
 ---
-weight: 999
+weight: 800
 title: "Contact"
 description: "Get in touch"
 icon: "contact_support"

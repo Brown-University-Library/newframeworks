@@ -34,13 +34,13 @@ hero:
     #rounded:  # round the image corners? default 'false' (excludes .svg images)
 
   ctaButton:
-    icon: brush
+    icon: diversity_2
     btnText: "Artists"
     url: "/docs/artists"
-  #cta2Button:
-    #icon: diversity_2
-    #btnText: "Meet the team"
-    #url: "/docs/team"
+  cta2Button:
+    icon: brush
+    btnText: "Preservation Sketches"
+    url: "/docs/preservation-sketches"
 
   info: "This project will develop new frameworks for the long-term preservation and presentation of born-digital art. Preserving born-digital work can be challenging because platforms, hardware, and software are often updated or replaced, changing and even degrading how the original art is displayed. Through \"containerization\" — a portable, low-cost method of preserving and presenting the code, operating system, and text for experimental, born-digital art — future readers will still be able to view, distribute, collaborate on, and experiment with the original work even if its infrastructure has been altered or discontinued.\n
 

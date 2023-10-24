@@ -1,0 +1,12 @@
+.main-content>div {
+    display: grid;
+    grid-column-gap: 10px;
+    grid-template-columns: 150px auto;
+}
+figure {
+    grid-row: span 2;
+}
+h2,
+h2+p {
+    grid-column: 2 / 3
+}

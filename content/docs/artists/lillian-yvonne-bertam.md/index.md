@@ -6,7 +6,7 @@ date: "2023-08-22T13:22:51-04:00"
 lastmod: "2023-08-22T13:22:51-04:00"
 draft: false
 toc: true
-weight: 999
+weight: 50
 ---
 
 Associate Professor in the Department of English at the University of Massachusetts-Boston, where they teach in and direct the UMass Boston MFA in Creative Writing Program. They have previously taught at St. Lawrence University, Ithaca College, and Williams College. They also direct the Chautauqua Institution Writers’ Festival.

@@ -6,7 +6,7 @@ date: "2023-08-22T13:34:14-04:00"
 lastmod: "2023-08-22T13:34:14-04:00"
 draft: false
 toc: true
-weight: 30
+weight: 500
 ---
 
 Overview of lessons learned from the project & where to go next. Prose, [some links](http://google.com)? Pages, properly marked up with headers, starting with h2s, will have internal navigation on the right sidebar (default is for internal nav to show only h2 and h3s, this can be customized)

@@ -1,4 +1,4 @@
-baseURL = '/'
+baseURL = 'https://newframeworks.brown.edu'
 languageCode = 'en-us'
 title = 'New Frameworks to Preserve and Publish Born-Digital Art'
 
@@ -40,28 +40,28 @@ title = 'New Frameworks to Preserve and Publish Born-Digital Art'
         name  = "Contact"
         url = "docs/contact"
         identifier = "contact"
-        weight = 20
+        weight = 40
 
-    [[menu.primary]]
-        name  = "Press"
-        url = "docs/press"
-        identifier = "press"
-        weight = 30
+    #[[menu.primary]]
+        #name  = "Press"
+        #url = "docs/press"
+        #identifier = "press"
+        #weight = 30
 
     [[menu.primary]]
         name  = "Process"
         url = "docs/process"
         identifier = "process"
-        weight = 40
+        weight = 30
 
     [[menu.primary]]
         name  = "Future Directions"
         url = "docs/future-directions"
         identifier = "future"
-        weight = 50
+        weight = 20
 
     [[menu.primary]]
         name  = "Meet the Team"
         url = "docs/team"
         identifier = "team"
-        weight = 60
+        weight = 50

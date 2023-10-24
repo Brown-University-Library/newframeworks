@@ -27,7 +27,7 @@
     {{- end -}}
     <link rel="stylesheet" href="{{ $style.RelPermalink }}" {{ if hugo.IsProduction }}integrity="{{ $style.Data.Integrity }}"{{ end -}}/>
     <!-- CDS CSS -->
-        {{- $options := dict "enableSourceMap" true }}
+    {{- $options := dict "enableSourceMap" true }}
     {{- if hugo.IsProduction}}
         {{- $options := dict "enableSourceMap" false "outputStyle" "compressed" }}
     {{- end }}
@@ -37,6 +37,7 @@
         {{- $style = $style | minify | fingerprint "sha384" }}
     {{- end -}}
     <link rel="stylesheet" href="{{ $style.RelPermalink }}" {{ if hugo.IsProduction }}integrity="{{ $style.Data.Integrity }}"{{ end -}}/>
+    {{ with .Params.customcss }}<link rel="stylesheet" href="{{ . }}" />{{ end }}
     <!-- Bootstrap JS -->
     {{ $js := resources.Get "js/bootstrap.js" }}
     {{ $params := dict }}

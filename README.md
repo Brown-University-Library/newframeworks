@@ -13,7 +13,9 @@ You must also be comfortable working from the command line.
 Clone [the repo from Github](https://github.com/Brown-University-Library/newframeworks). Basic commands are [documented in the Hugo docs](https://gohugo.io/getting-started/usage/). Follow those instructions to get the site running locally. Make your edits (see below). Commit those changes and push them up to Github. *Deployment instructions to come!*
 
 # Content
-The content on the homepage is managed in `data/landing.yaml`. All other pages are in Markdown files in `content/docs`. Images are put in `assets/images`. If you need other kinds of media files saved locally, please create a new folder in assets, e.g., `assets/audio`. The icons used throughout the site are Google's [Material Icons](https://fonts.google.com/icons?icon.style=Outlined&icon.set=Material+Symbols). To _create_ new content, make sure to use the `hugo new` [command to generate a Markdown file](https://gohugo.io/getting-started/quick-start/#add-content) with useful front matter.
+The content on the homepage is managed in `data/landing.yaml`. All other pages are in Markdown files in `content/docs`. The icons used throughout the site are Google's [Material Icons](https://fonts.google.com/icons?icon.style=Outlined&icon.set=Material+Symbols). To _create_ new content, make sure to use the `hugo new` [command to generate a Markdown file](https://gohugo.io/getting-started/quick-start/#add-content) with useful front matter.
+
+Images used in content are saved alongside their content.
 
 ## Markdown
 You can always check the [basic syntax](https://www.markdownguide.org/basic-syntax/) guide. If you're more comfortable working with a GUI or want to preview your Markdown, there are a bunch of [tools](https://www.markdownguide.org/tools/) you can use, including [Dillinger's online editor](https://dillinger.io/), and an [add-on for Google Docs](https://workspace.google.com/marketplace/app/docs_to_markdown/700168918607).
@@ -21,16 +23,16 @@ You can always check the [basic syntax](https://www.markdownguide.org/basic-synt
 # Media
 
 ## Images
-For images in the `assets/images` folder, use the [built-in Hugo shortcode](https://gohugo.io/content-management/shortcodes/#figure).
+Use the [built-in Hugo shortcode](https://gohugo.io/content-management/shortcodes/#figure).
 
 ## BDR items
 In a Markdown file, use the following syntax:
 ```
 {{<panopto UUID >}}
 ```
-The UUID will be replaced with a long alphanumeric string that you can get from the URL of the BDR item in Panopto. (I know this is confusing, I'm working on a better way to get this information and explain the process.)
+The UUID should be the long alphanumeric string at the end of the URL of the BDR item in Panopto. For example: if you wanted to embed the BDR item at `https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=67c067ff-14d9-48d7-9687-af9e00f0e273`, the UUID would be `67c067ff-14d9-48d7-9687-af9e00f0e273` and the shortcode would be `{{<panopto 67c067ff-14d9-48d7-9687-af9e00f0e273 >}}`.
 
 # To-do
 - set up a Reclaim deployment workflow, document
-- see if there's a way to embed Panopto resources with a BDR ID
-- add headshots to team section/page
+- get the various CSS additions to compile & attach properly
+- spec the link to sketch in artist page; is the Hugo [Related Content](https://gohugo.io/content-management/related/) thing overkill?
