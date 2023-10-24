@@ -15,7 +15,7 @@ Clone [the repo from Github](https://github.com/Brown-University-Library/newfram
 # Content
 The content on the homepage is managed in `data/landing.yaml`. All other pages are in Markdown files in `content/docs`. The icons used throughout the site are Google's [Material Icons](https://fonts.google.com/icons?icon.style=Outlined&icon.set=Material+Symbols). To _create_ new content, make sure to use the `hugo new` [command to generate a Markdown file](https://gohugo.io/getting-started/quick-start/#add-content) with useful front matter.
 
-Images used in content are saved alongside their content.
+Images used in content are saved alongside their content. See the `content/docs/team` folder for an example.
 
 ## Markdown
 You can always check the [basic syntax](https://www.markdownguide.org/basic-syntax/) guide. If you're more comfortable working with a GUI or want to preview your Markdown, there are a bunch of [tools](https://www.markdownguide.org/tools/) you can use, including [Dillinger's online editor](https://dillinger.io/), and an [add-on for Google Docs](https://workspace.google.com/marketplace/app/docs_to_markdown/700168918607).
