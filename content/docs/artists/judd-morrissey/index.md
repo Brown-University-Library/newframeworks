@@ -1,6 +1,6 @@
 ---
 title: "Judd Morrissey"
-description: ""
+description: "Judd Morrissey is a writer and code artist."
 icon: "person"
 date: "2023-08-22T13:23:28-04:00"
 lastmod: "2023-08-22T13:23:28-04:00"
