@@ -1,6 +1,6 @@
 ---
 title: "Allison Parrish"
-description: ""
+description: "Allison Parrish is a computer programmer, poet, and game designer."
 icon: "person_3"
 date: "2023-08-22T13:23:19-04:00"
 lastmod: "2023-08-22T13:23:19-04:00"
