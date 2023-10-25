@@ -23,7 +23,8 @@ Technical Lead
 
 {{< figure src="carvel.jpg" alt="Digital art of a face, surrounded by stylized flowers">}}
 ## [Cody Carvel](https://library.brown.edu/create/cds/people/cody-carvel)
-Hosting Infrastructure Specialist
+Containers and Emulation Lead 
+Carvel led all ...... for the project.  
 
 {{< figure src="wang.jpg" alt="A woman with dark hair in pigtails" >}}
 ## [Hilary Wang](https://library.brown.edu/create/libnews/hilary-wang/)
