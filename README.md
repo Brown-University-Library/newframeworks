@@ -1,7 +1,8 @@
 # New Frameworks
 This repo is the documentation site for the [New Frameworks project](https://library.brown.edu/create/cds/portfolio/born-digital/). It is built in [Hugo](https://gohugo.io) and uses the [Lotus Docs](https://github.com/colinwilson/lotusdocs) theme, with some custom extensions by CDS. Both Hugo & Lotus Docs are well-documented!
 
-# If you want to run a local server and see the changes you make in-context
+# To run a local server
+If you want to run a local server and see the changes you make in-context on the site, follow these instructions. This requires a little more up-front setup.
 
 ## Prerequisites
 Before you begin work, you must:
@@ -9,10 +10,21 @@ Before you begin work, you must:
 - Install [Hugo](https://gohugo.io/installation/) (extended edition, v0.112.0 or later)
 - Install [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
-You must also be comfortable working from the command line.
+You must also be comfortable working from the command line. You'll need a Github account (that's authorized to access Brown University Library repositories) and have set that account up to interact with Github. You can use a GUI such as [Github Desktop](https://docs.github.com/en/desktop/overview/getting-started-with-github-desktop) for this, but you will still have to use the command line for Hugo.
 
 ## Get started
-Clone or fork [the repo from Github](https://github.com/Brown-University-Library/newframeworks). Basic commands are [documented in the Hugo docs](https://gohugo.io/getting-started/usage/). Follow those instructions to get the site running locally. Make your edits (see below). Commit those changes and push them up to Github. *Deployment instructions to come!*
+1. Fork [the repo on Github](https://github.com/Brown-University-Library/newframeworks).
+2. Download, aka clone, your fork to your local computer.
+3. Start the Hugo site. Basic commands are [documented in the Hugo docs](https://gohugo.io/getting-started/usage/). Follow those instructions to get the site running locally.
+4. Make your edits (see below).
+5. Commit those changes and push them up to Github.
+6. [Create a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork). You can request a specific person's attention by adding them as a "reviewer" to your pull request.
+7. Someone else on the project team must review your work before it is merged into the main repository and deployed to the web.
+
+## Next time
+After the initial setup, you can start at step 3 above.
+
+Periodically check for updates other people have made. To do so, the box at the top of your fork on Github may say something like "This branch is 2 commits behind Brown-University-Library:master". If your fork is _behind_, please click the "sync files" button on the right, and then the "update branch" button, _before_ you make any changes. There should now be a cheerful blue alert at the very top of the page saying "Successfully fetched and fast-forwarded from upstream Brown-University-Library:master."
 
 # If you want to edit page content in your browser
 
@@ -48,7 +60,7 @@ Images used in content are saved alongside their content. See the `content/docs/
 
 If you're using the local server process, at top, to _create_ new content, make sure to use the `hugo new` [command to generate a Markdown file](https://gohugo.io/getting-started/quick-start/#add-content) with useful front matter.
 
-If you're using the browser editor, I'm still writing that documentation.
+(If you're using the browser editor, I'm still writing that documentation.)
 
 ## Markdown
 You can always check the [basic syntax](https://www.markdownguide.org/basic-syntax/) guide. If you're more comfortable working with a GUI or want to preview your Markdown, there are a bunch of [tools](https://www.markdownguide.org/tools/) you can use, including [Dillinger's online editor](https://dillinger.io/), and an [add-on for Google Docs](https://workspace.google.com/marketplace/app/docs_to_markdown/700168918607). (Obviously, you'll have to move anything you edit using those tools into the codebase so other people can access it.)
@@ -69,4 +81,4 @@ The UUID should be the long alphanumeric string at the end of the URL of the BDR
 - set up a Reclaim deployment workflow, document
 - get the various CSS additions to compile & attach properly
 - spec the link to sketch in artist page; is the Hugo [Related Content](https://gohugo.io/content-management/related/) thing overkill?
-- Document creating new content using github.dev
+- Document creating new content using github.de
