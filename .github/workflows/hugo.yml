@@ -1,27 +1,27 @@
-name: Build and deploy Hugo site
+name: 'Generate and deploy'
 
 on:
   push:
-    branches:
-      - master
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
 
 jobs:
-  build:
+  deploy-website:
     runs-on: ubuntu-latest
-
     steps:
-    - uses: actions/checkout@v2
-    - name: Setup Hugo
-      uses: peaceiris/actions-hugo@v2.6.0
-      with:
-        hugo-version: '0.110.0'
-    - name: Build
-      run: hugo --minify
-    - name: Deploy
-      uses: appleboy/ssh-action@master
-      with:
-        args: -avz --delete
-        src: public/
-        dest: ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_IP }}:/home/newframe/www
-      env:
-        RSYNC_PASSWORD: ${{ secrets.RSYNC_PASSWORD }}
+      - name: Do a git checkout including submodules
+        uses: actions/checkout@master
+        with:
+          submodules: true
+
+      - name: Generate and deploy website
+        uses: ronvanderheijden/hugo-rsync-deployment@master
+        env:
+          VPS_DEPLOY_KEY: ${{ secrets.VPS_DEPLOY_KEY }}
+          VPS_DEPLOY_USER: newframe
+          VPS_DEPLOY_HOST: newframeworks.digitalscholarship.brown.edu
+          VPS_DEPLOY_DEST: /home/newframe/www/
+        with:
+          hugo-arguments: '--minify'
+          rsync-arguments: '--archive --compress --xattrs --delete'
