@@ -18,10 +18,10 @@ jobs:
     - name: Build
       run: hugo --minify
     - name: Deploy
-      uses: appleboy/rsync-action@master
+      uses: appleboy/ssh-action@master
       with:
         args: -avz --delete
         src: public/
-        dest: ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_IP }}:/path/to/your/site
+        dest: ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_IP }}:/home/newframe/www
       env:
         RSYNC_PASSWORD: ${{ secrets.RSYNC_PASSWORD }}
