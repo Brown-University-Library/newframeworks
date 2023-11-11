@@ -20,7 +20,7 @@ jobs:
         env:
           VPS_DEPLOY_KEY: ${{ secrets.VPS_DEPLOY_KEY }}
           VPS_DEPLOY_USER: newframe
-          VPS_DEPLOY_HOST: 159.203.74.218 #newframeworks.digitalscholarship.brown.edu
+          VPS_DEPLOY_HOST: 159.203.74.218
           VPS_DEPLOY_DEST: /home/newframe/www/
         with:
           hugo-arguments: '--minify'
