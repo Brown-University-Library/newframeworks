@@ -56,7 +56,7 @@ jobs:
 
 # SEE ABOVE trying with scp and simple host-user-pass-port variable-secrets
 # via https://github.com/marketplace/actions/scp-command-to-transfer-files
-name: 'Generate and deploy'
+# name: 'Generate and deploy'
 
 # on:
 #   push:
