@@ -1,4 +1,4 @@
-name: hugo rsync
+name: hugo rsync-no-sftp
 on:
   push:
     branches: [ master ]
@@ -20,68 +20,38 @@ jobs:
           hugo-version: 'latest'
           extended: true
 
+      - name: Setup Node
+        uses: actions/setup-node@v4.0.0
+        with:
+          node-version: '16.x'
+        
+      - name: Install npm dependencies
+        run: |
+        npm install
+
       - name: Build
         run: hugo --minify
 
-      - name: Deployment rsync
-        uses: burnett01/rsync-deployments@6.0.0
+      - name: List output files
+        run: ls public
+
+      - name: deploy using ftp
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
-          switches: -avzr --delete
-          path: public/
-          remote_path: /home/newframe/www/wwwtest
-          remote_host: ${{ secrets.DEPLOY_HOSTNAME }}
-          remote_port: ${{ secrets.DEPLOY_PORT }}
-          remote_user: ${{ secrets.DEPLOY_USERNAME }}
-          remote_key: ${{ secrets.DEPLOY_KEY}}
+        #example of ftp-server: sftp://rome.xyz/rome_blog
+        ftp-server: ${{ secrets.SFTP_SERVER }}
+        ftp-username: ${{ secrets.FTP_USERNAME }}
+        ftp-password: ${{ secrets.FTP_PASSWORD }}
+        known-hosts: ${{ secrets.KNOWN_HOST }}
+        local-dir: /
 
-
-# name: scp files
-# on: [push]
-# jobs:
-
-#   build:
-#     name: Build
-#     runs-on: ubuntu-latest
-#     steps:
-#     - uses: actions/checkout@v3
-#     - name: copy file via ssh password
-#       uses: appleboy/scp-action@v0.1.4
-#       with:
-#         host: ${{ secrets.HOST }}
-#         username: ${{ secrets.USERNAME }}
-#         password: ${{ secrets.PASSWORD }}
-#         port: ${{ secrets.PORT }}
-#         source: "/" #what gets deployed?
-#         target: /home/newframe/www/wwwtest
-
-
-# SEE ABOVE trying with scp and simple host-user-pass-port variable-secrets
-# via https://github.com/marketplace/actions/scp-command-to-transfer-files
-# name: 'Generate and deploy'
-
-# on:
-#   push:
-#     branches: [ master ]
-#   pull_request:
-#     branches: [ master ]
-
-# jobs:
-#   deploy-website:
-#     runs-on: ubuntu-latest
-#     steps:
-#       - name: Do a git checkout including submodules
-#         uses: actions/checkout@master
-#         with:
-#           submodules: true
-
-#       - name: Generate and deploy website
-#         uses: Brown-University-Library/hugo-rsync-deployment@master
-#         env:
-#           VPS_DEPLOY_KEY: ${{ secrets.VPS_DEPLOY_KEY }}
-#           VPS_DEPLOY_USER: newframe
-#           PASSWORD: ${{ secrets.PASSWORD}}
-#           VPS_DEPLOY_HOST: 159.203.74.218
-#           VPS_DEPLOY_DEST: /home/newframe/www/wwwtest
-#         with:
-#           hugo-arguments: '--minify'
-#           rsync-arguments: '--archive --compress --xattrs --delete'
+      # - name: Deployment rsync
+      #   uses: burnett01/rsync-deployments@6.0.0
+      #   with:
+      #     switches: -avzr --delete
+      #     path: public/
+      #     remote_path: /home/newframe/www/wwwtest
+      #     remote_host: ${{ secrets.DEPLOY_HOSTNAME }}
+      #     remote_port: ${{ secrets.DEPLOY_PORT }}
+      #     remote_user: ${{ secrets.DEPLOY_USERNAME }}
+      #     remote_key: ${{ secrets.DEPLOY_KEY}}
