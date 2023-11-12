@@ -38,8 +38,7 @@ jobs:
       - name: deploy using ftp
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
-        #example of ftp-server: sftp://rome.xyz/rome_blog
-        server: ${{ secrets.SFTP_SERVER }}
+        ftp-server: ${{ secrets.SFTP_SERVER }}
         ftp-username: ${{ secrets.FTP_USERNAME }}
         ftp-password: ${{ secrets.FTP_PASSWORD }}
         local-dir: /
