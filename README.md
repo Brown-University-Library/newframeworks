@@ -1,4 +1,4 @@
-# New Frameworks
+# New Frameworks 
 This repo is the documentation site for the [New Frameworks project](https://library.brown.edu/create/cds/portfolio/born-digital/). It is built in [Hugo](https://gohugo.io) and uses the [Lotus Docs](https://github.com/colinwilson/lotusdocs) theme, with some custom extensions by CDS. Both Hugo & Lotus Docs are well-documented!
 
 # To run a local server
