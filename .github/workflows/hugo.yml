@@ -1,4 +1,4 @@
-name: 'Generate and deploy'
+name: 'Generate, deploy'
 
 on:
   push:
