@@ -1,6 +1,6 @@
 module github.com/elizabethyalkut/newframeworks
 
-go 1.21.3
+go 1.21
 
 require (
 	github.com/colinwilson/lotusdocs v0.1.0 // indirect
