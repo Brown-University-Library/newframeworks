@@ -37,10 +37,10 @@ jobs:
       - name: Deploy file
         uses: wlixcc/SFTP-Deploy-Action@v1.2.4
         with:
-          username: newframe
-          server: 159.203.74.218
+          username: ${{ secrets.FTP_USERNAME }}
+          server: ${{ secrets.FTP_SERVER }}
           port: 22
           local_path: './*'
-          remote_path: '/home/newframe/www/wwwtest/'
+          remote_path: '/home/newframe/www/'
           sftp_only: true
           password: ${{ secrets.FTP_PASSWORD }}
