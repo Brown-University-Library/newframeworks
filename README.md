@@ -4,7 +4,7 @@ This repo is the documentation site for the [New Frameworks project](https://lib
 # To run a local server
 If you want to run a local server and see the changes you make in-context on the site, follow these instructions. This requires a little more up-front setup.
 
-## Prerequisites 
+## Prerequisites
 Before you begin work, you must:
 
 - Install [Hugo](https://gohugo.io/installation/) (extended edition, v0.112.0 or later)
