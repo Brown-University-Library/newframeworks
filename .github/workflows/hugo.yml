@@ -39,7 +39,7 @@ jobs:
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
         #example of ftp-server: sftp://rome.xyz/rome_blog
-        server: ${{ secrets.SFTP_SERVER }}
+        server: 159.203.74.218
         ftp-username: ${{ secrets.FTP_USERNAME }}
         ftp-password: ${{ secrets.FTP_PASSWORD }}
         known-hosts: ${{ secrets.KNOWN_HOST }}
