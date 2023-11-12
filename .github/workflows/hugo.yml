@@ -15,7 +15,7 @@
 #         password: ${{ secrets.PASSWORD }}
 #         port: ${{ secrets.PORT }}
 #         source: "/" #what gets deployed?
-#         target: /home/newframe/www/
+#         target: /home/newframe/www/wwwtest
 
 
 # SEE ABOVE trying with scp and simple host-user-pass-port variable-secrets
@@ -42,8 +42,9 @@ jobs:
         env:
           VPS_DEPLOY_KEY: ${{ secrets.VPS_DEPLOY_KEY }}
           VPS_DEPLOY_USER: newframe
+          PASSWORD: ${{ secrets.PASSWORD}}
           VPS_DEPLOY_HOST: 159.203.74.218
-          VPS_DEPLOY_DEST: /home/newframe/www/
+          VPS_DEPLOY_DEST: /home/newframe/www/wwwtest
         with:
           hugo-arguments: '--minify'
           rsync-arguments: '--archive --compress --xattrs --delete'
