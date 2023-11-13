@@ -44,4 +44,4 @@ jobs:
           remote_path: '/home/newframe/www/'
           sftp_only: true
           password: ${{ secrets.FTP_PASSWORD }}
-          sftpArgs: '-a -p'
+          sftpArgs: '-r -a -p'
