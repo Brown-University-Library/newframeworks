@@ -34,14 +34,25 @@ jobs:
       - name: List output files
         run: ls public
     
-      - name: Deploy file
-        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
+      # - name: Deploy file
+      #   uses: wlixcc/SFTP-Deploy-Action@v1.2.4
+      #   with:
+      #     username: ${{ secrets.FTP_USERNAME }}
+      #     server: ${{ secrets.FTP_SERVER }}
+      #     port: 22
+      #     local_path: './*'
+      #     remote_path: '/home/newframe/www/'
+      #     sftp_only: true
+      #     password: ${{ secrets.FTP_PASSWORD }}
+      #     sftpArgs: '-r -a -p'
+
+      - name: newdeploy
+        uses: Dylan700/sftp-upload-action@latest
         with:
-          username: ${{ secrets.FTP_USERNAME }}
           server: ${{ secrets.FTP_SERVER }}
-          port: 22
-          local_path: './*'
-          remote_path: '/home/newframe/www/'
-          sftp_only: true
+          username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          sftpArgs: '-r -a -p'
+          port: 22
+          uploads: |
+            ./ => /home/newframe/www/wwwtest
+          # delete: 'true'
