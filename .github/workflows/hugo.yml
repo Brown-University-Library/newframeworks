@@ -55,4 +55,4 @@ jobs:
           port: 22
           uploads: |
             ./ => /home/newframe/www/wwwtest
-          # delete: 'true'
+          delete: 'true'
