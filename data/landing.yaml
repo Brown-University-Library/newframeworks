@@ -73,6 +73,6 @@ features:
       icon: person_add
       description: This project aims to explore reproducible models to preserve multimedia works that are otherwise difficult to preserve. This is a particularly hard problem for early career or independent artists who do not have the benefit of institutional support. This project aims to help support those artists for which there is not currently much support available.
 
-# Disables image comparison section
+# Disables image comparison section, do not remove
 image_compare:
-  enable: true
+  enable: false

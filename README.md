@@ -56,7 +56,7 @@ The content on the homepage is managed in `data/landing.yaml`.
 
 All other pages are in Markdown files in `content/docs`. At the top of every Markdown file, there is "front matter" -- information so that Hugo can build the site correctly. You can update the _values_ here (change the title! add a useful description! make the draft status true or false!).
 
-Images used in content are saved alongside their content. See the `content/docs/team` folder for an example: the text is in the `index.md` file, and the several .jpgs in the folder are referenced in the file.
+Images used in content are saved alongside their content. See the `content/docs/team` folder for an example: the text is in the `index.md` file, and the several .jpgs in the folder are referenced in the file. See below for the shortcode to add an image to your content.
 
 If you're using the local server process, at top, to _create_ new content, make sure to use the `hugo new` [command to generate a Markdown file](https://gohugo.io/getting-started/quick-start/#add-content) with useful front matter.
 
@@ -70,6 +70,11 @@ You can always check the [basic syntax](https://www.markdownguide.org/basic-synt
 ## Images
 Use the [built-in Hugo shortcode](https://gohugo.io/content-management/shortcodes/#figure).
 
+An example for an artist headshot that displays 200px wide (the original image is larger) and has text wrapped around it:
+```
+{{< figure src="morrissey.jpg" alt="Judd, unsmiling" caption="photo courtesy Judd Morrissey" width="200" class="me-3 figure float-start">}}
+```
+
 ## BDR items
 In a Markdown file, use the following syntax:
 ```
@@ -81,4 +86,4 @@ The UUID should be the long alphanumeric string at the end of the URL of the BDR
 - set up a Reclaim deployment workflow, document
 - get the various CSS additions to compile & attach properly
 - spec the link to sketch in artist page; is the Hugo [Related Content](https://gohugo.io/content-management/related/) thing overkill?
-- Document creating new content using github.de
+- Document creating new content using github.dev
