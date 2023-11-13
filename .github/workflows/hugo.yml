@@ -54,5 +54,5 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           port: 22
           uploads: |
-            ./ => /home/newframe/www/wwwtest
+            ./public => /home/newframe/www/wwwtest
           delete: 'true'
