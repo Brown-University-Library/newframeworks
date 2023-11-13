@@ -1,6 +1,6 @@
 ---
 title: "Press"
-description: ""
+description: "Things other people have said."
 icon: "newspaper"
 date: "2023-08-22T13:11:28-04:00"
 lastmod: "2023-08-22T13:11:28-04:00"
