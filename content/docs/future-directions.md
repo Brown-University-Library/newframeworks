@@ -9,7 +9,7 @@ toc: true
 weight: 500
 ---
 
-Overview of lessons learned from the project & where to go next. Prose, [some links](http://google.com)? Pages, properly marked up with headers, starting with h2s, will have internal navigation on the right sidebar (default is for internal nav to show only h2 and h3s, this can be customized)
+Overview of lessons learned from the project & where to go next. Prose, [some links](/docs/press)? Pages, properly marked up with headers, starting with h2s, will have internal navigation on the right sidebar (default is for internal nav to show only h2 and h3s, this can be customized)
 
 ## History
 
