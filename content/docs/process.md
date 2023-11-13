@@ -46,3 +46,4 @@ sequenceDiagram
     Bob-->Alice: Checking with John...
     Alice->John: Yes... John, how are you?
 ```
+which would allow us to show workflows and processes.
