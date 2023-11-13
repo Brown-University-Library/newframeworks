@@ -5,12 +5,11 @@
     <meta name="robots" content="noindex">
     {{- end }}
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A Lightweight, Modern Documentation Theme for Hugo" />
+    <!--<meta name="description" content="A Lightweight, Modern Documentation Theme for Hugo" />-->
     <meta name="keywords" content="Documentation, Hugo, Hugo Theme, Bootstrap" />
-    <meta name="author" content="Colin Wilson - Lotus Labs" />
-    <meta name="email" content="support@aigis.uk" />
-    <meta name="website" content="https://lotusdocs.dev" />
-    <meta name="Version" content="v0.1.0" />
+    <meta name="author" content="Center for Digital Scholarship" />
+    <meta name="email" content="newframeworks@brown.edu" />
+    <meta name="website" content="https://library.brown.edu/create/cds/" />
     <!-- favicon -->
     {{ block "head/favicon" . }}{{ partialCached "head/favicon.html" . }}{{ end }}
     <!-- Google Fonts -->
@@ -37,7 +36,6 @@
         {{- $style = $style | minify | fingerprint "sha384" }}
     {{- end -}}
     <link rel="stylesheet" href="{{ $style.RelPermalink }}" {{ if hugo.IsProduction }}integrity="{{ $style.Data.Integrity }}"{{ end -}}/>
-    {{ with .Params.customcss }}<link rel="stylesheet" href="{{ . }}" />{{ end }}
     <!-- Bootstrap JS -->
     {{ $js := resources.Get "js/bootstrap.js" }}
     {{ $params := dict }}
