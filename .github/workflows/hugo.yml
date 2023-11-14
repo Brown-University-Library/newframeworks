@@ -1,10 +1,11 @@
-name: sftp try deploy
+name: deploy to reclaim
 on: 
   push:
     branches: [ master ]
 
 jobs:
   deploy:
+    if: github.repository_id == '707771755'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
