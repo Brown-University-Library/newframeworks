@@ -83,7 +83,6 @@ In a Markdown file, use the following syntax:
 The UUID should be the long alphanumeric string at the end of the URL of the BDR item in Panopto. For example: if you wanted to embed the BDR item at `https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=67c067ff-14d9-48d7-9687-af9e00f0e273`, the UUID would be `67c067ff-14d9-48d7-9687-af9e00f0e273` and the shortcode would be `{{<panopto 67c067ff-14d9-48d7-9687-af9e00f0e273 >}}`.
 
 # To-do
-- set up a Reclaim deployment workflow, document
-- get the various CSS additions to compile & attach properly
+- document working Reclaim deploy process, figure out how to do it with rsync?
 - spec the link to sketch in artist page; is the Hugo [Related Content](https://gohugo.io/content-management/related/) thing overkill?
 - Document creating new content using github.dev
