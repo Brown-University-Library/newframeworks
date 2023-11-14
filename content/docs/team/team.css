@@ -7,6 +7,6 @@ figure {
     grid-row: span 2;
 }
 h2,
-h2+p {
-    grid-column: 2 / 3
+h2~p {
+    grid-column: 2 / 3;
 }
