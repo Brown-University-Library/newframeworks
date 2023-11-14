@@ -7,9 +7,9 @@ lastmod: "2023-08-22T13:08:03-04:00"
 draft: false
 toc: true
 weight: 500
-customcss: "/team.css"
+customcss: "team.css"
 ---
-{{< figure src="cayley.jpg" alt="A man with a white hair">}}
+{{< figure src="cayley.jpg" alt="A man with white hair">}}
 ## [John Cayley](https://programmatology.com/inapm/inapm1_authorbio.html)
 Co-PI, Faculty Director
 
@@ -24,7 +24,6 @@ Technical Lead
 {{< figure src="carvel.jpg" alt="Digital art of a face, surrounded by stylized flowers">}}
 ## [Cody Carvel](https://library.brown.edu/create/cds/people/cody-carvel)
 Containers and Emulation Lead 
-Carvel led all ...... for the project.  
 
 {{< figure src="wang.jpg" alt="A woman with dark hair in pigtails" >}}
 ## [Hilary Wang](https://library.brown.edu/create/libnews/hilary-wang/)
