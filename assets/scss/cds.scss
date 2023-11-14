@@ -1,19 +1,16 @@
-.headshot {
-    max-width: 10rem;
-    margin-right: 1rem;
-    float: inline-start;
-}
 // relative links
 .main-content a[href^="/docs/"] {
     font-weight: 600;
     color: white;
-    background-color: red;
-    border-color: red;
+    background-color: rgba(blue, 1);
+    border: solid 2px blue;
     border-radius: .5rem;
+    padding: 1rem 2rem;
+    transition: all 0.5s ease-out;
     &:hover,
     &:active {
-        color: white;
-        background-color: blue;
+        color: blue;
+        background-color: white;
         border-color: blue;
     }
 }

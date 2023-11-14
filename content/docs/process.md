@@ -9,7 +9,7 @@ toc: true
 weight: 700
 ---
 
-If we wanted to put example code in the site for the edification of readers, we could do so:
+If we wanted to put example code in the site for the edification of readers, _we could do so_:
 ```html
 <!-- required -->
 <!doctype html>

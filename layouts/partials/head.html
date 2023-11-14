@@ -17,25 +17,14 @@
     <!-- Lotus CSS -->
     {{- $options := dict "enableSourceMap" true }}
     {{- if hugo.IsProduction}}
-        {{- $options := dict "enableSourceMap" false "outputStyle" "compressed" }}
+    {{- $options := dict "enableSourceMap" false "outputStyle" "compressed" }}
     {{- end }}
     {{- $style := resources.Get "/scss/style.scss" }}
     {{- $style = $style | resources.ExecuteAsTemplate "/scss/style.scss" . | resources.ToCSS $options }}
     {{- if hugo.IsProduction }}
-        {{- $style = $style | minify | fingerprint "sha384" }}
+    {{- $style = $style | minify | fingerprint "sha384" }}
     {{- end -}}
-    <link rel="stylesheet" href="{{ $style.RelPermalink }}" {{ if hugo.IsProduction }}integrity="{{ $style.Data.Integrity }}"{{ end -}}/>
-    <!-- CDS CSS -->
-    {{- $options := dict "enableSourceMap" true }}
-    {{- if hugo.IsProduction}}
-        {{- $options := dict "enableSourceMap" false "outputStyle" "compressed" }}
-    {{- end }}
-    {{- $style := resources.Get "/scss/cds.scss" }}
-    {{- $style = $style | resources.ExecuteAsTemplate "/scss/cds.scss" . | resources.ToCSS $options }}
-    {{- if hugo.IsProduction }}
-        {{- $style = $style | minify | fingerprint "sha384" }}
-    {{- end -}}
-    <link rel="stylesheet" href="{{ $style.RelPermalink }}" {{ if hugo.IsProduction }}integrity="{{ $style.Data.Integrity }}"{{ end -}}/>
+    <link rel="stylesheet" href="{{ $style.RelPermalink }}" {{ if hugo.IsProduction }} integrity="{{ $style.Data.Integrity }}" {{ end -}} />
     <!-- Bootstrap JS -->
     {{ $js := resources.Get "js/bootstrap.js" }}
     {{ $params := dict }}
@@ -43,19 +32,19 @@
     {{ $opts := dict "sourceMap" $sourceMap "minify" hugo.IsProduction "target" "es2018" "params" $params }}
     {{ $js = $js | js.Build $opts }}
     {{ if hugo.IsProduction }}
-        {{ $js = $js | fingerprint "sha384" }}
+    {{ $js = $js | fingerprint "sha384" }}
     {{ end }}
-        <script src="{{ $js.RelPermalink }}" {{ if hugo.IsProduction }}integrity="{{ $js.Data.Integrity }}"{{ end -}} defer></script>
+    <script src="{{ $js.RelPermalink }}" {{ if hugo.IsProduction }} integrity="{{ $js.Data.Integrity }}" {{ end -}} defer></script>
     <!-- Plausible Analytics Config -->
     {{- if not .Site.IsServer }}
     {{ if and (.Site.Params.plausible.scriptURL) (.Site.Params.plausible.dataDomain) -}}
-        {{- partialCached "head/plausible" . }}
+    {{- partialCached "head/plausible" . }}
     {{- end -}}
     {{- end -}}
     <!-- Google Analytics v4 Config -->
     {{- if not .Site.IsServer }}
     {{- if .Site.GoogleAnalytics }}
-        {{- template "_internal/google_analytics.html" . -}}
+    {{- template "_internal/google_analytics.html" . -}}
     {{- end -}}
     {{- end -}}
 </head>
