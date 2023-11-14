@@ -1,6 +1,6 @@
 baseURL = 'https://newframeworks.digitalscholarship.brown.edu'
 languageCode = 'en-us'
-title = 'New Frameworks to Preserve and Publish Born-Digital Art'
+title = 'New Frameworks to Preserve and Publish Born-Computational Art'
 
 [module]
     [[module.imports]]
@@ -37,31 +37,37 @@ title = 'New Frameworks to Preserve and Publish Born-Digital Art'
         weight = 10
 
     [[menu.primary]]
+        name  = "Preservation Sketches"
+        url = "docs/preservation-sketches"
+        identifier = "sketches"
+        weight = 20
+
+    [[menu.primary]]
         name  = "Contact"
         url = "docs/contact"
         identifier = "contact"
-        weight = 40
+        weight = 60
 
     #[[menu.primary]]
         #name  = "Press"
         #url = "docs/press"
         #identifier = "press"
-        #weight = 30
+        #weight = 40
 
-    [[menu.primary]]
-        name  = "Process"
-        url = "docs/process"
-        identifier = "process"
-        weight = 30
+    #[[menu.primary]]
+        #name  = "Process"
+        #url = "docs/process"
+        #identifier = "process"
+        #weight = 50
 
     [[menu.primary]]
         name  = "Future Directions"
         url = "docs/future-directions"
         identifier = "future"
-        weight = 20
+        weight = 40
 
-    [[menu.primary]]
-        name  = "Meet the Team"
-        url = "docs/team"
-        identifier = "team"
-        weight = 50
+    #[[menu.primary]]
+        #name  = "Meet the Team"
+        #url = "docs/team"
+        #identifier = "team"
+        #weight = 50

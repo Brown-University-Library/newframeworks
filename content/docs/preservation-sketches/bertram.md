@@ -1,6 +1,6 @@
 ---
 weight: 51
-title: "Bertram"
+title: "Lillian-Yvonne Bertram Preservation Sketch"
 description: ""
 icon: "article"
 date: "2023-10-24T14:30:51-04:00"

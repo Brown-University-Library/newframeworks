@@ -5,7 +5,7 @@ icon: "person"
 date: "2023-08-22T13:22:51-04:00"
 lastmod: "2023-08-22T13:22:51-04:00"
 draft: false
-toc: true
+toc: false
 weight: 50
 ---
 

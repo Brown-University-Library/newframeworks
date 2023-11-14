@@ -4,7 +4,7 @@ description: "Meet the people who work on New Frameworks."
 icon: "diversity_2"
 date: "2023-08-22T13:08:03-04:00"
 lastmod: "2023-08-22T13:08:03-04:00"
-draft: false
+draft: true
 toc: true
 weight: 500
 customcss: "team.css"
