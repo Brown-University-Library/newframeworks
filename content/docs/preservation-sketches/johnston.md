@@ -1,6 +1,6 @@
 ---
 weight: 31
-title: "Johnston"
+title: "David Johnston Preservation Sketch"
 description: ""
 icon: "article"
 date: "2023-10-24T14:30:32-04:00"

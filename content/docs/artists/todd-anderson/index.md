@@ -1,11 +1,11 @@
 ---
 title: "Todd Anderson"
-description: ""
+description: "Todd Anderson is a digital poet and web artist."
 icon: "person_2"
 date: "2023-08-22T13:23:35-04:00"
 lastmod: "2023-08-22T13:23:35-04:00"
 draft: false
-toc: true
+toc: false
 weight: 60
 ---
 

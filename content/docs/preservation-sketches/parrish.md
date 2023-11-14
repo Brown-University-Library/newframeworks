@@ -1,11 +1,11 @@
 ---
 weight: 21
-title: "Parrish"
+title: "Allison Parrish Preservation Sketch"
 description: ""
 icon: "article"
 date: "2023-10-24T14:30:22-04:00"
 lastmod: "2023-10-24T14:30:22-04:00"
-draft: false
+draft: true
 toc: false
 ---
 

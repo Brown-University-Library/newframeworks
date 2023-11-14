@@ -1,6 +1,6 @@
 ---
 weight: 41
-title: "Morrissey"
+title: "Judd Morrissey Preservation Sketch"
 description: ""
 icon: "article"
 date: "2023-10-24T14:30:40-04:00"
