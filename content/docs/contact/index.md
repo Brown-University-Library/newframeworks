@@ -10,5 +10,5 @@ toc: true
 ---
 Email us at newframeworks@brown.edu.
 
-{{< figure src="newframeworks.jpg" alt="smiling people, all wearing business-casual attire" caption="Some of the New Frameworks team" class="figure">}}
+{{< figure src="newframeworks.jpg" alt="smiling people, all wearing business-casual attire" caption="Some of the New Frameworks team. Photo by David DelPoio, Brown Alumni Magazine." class="figure">}}
 

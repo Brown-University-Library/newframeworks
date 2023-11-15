@@ -29,6 +29,7 @@ Containers and Emulation Lead
 ## [Hilary Wang](https://library.brown.edu/create/libnews/hilary-wang/)
 Digital Archivist
 
+{{< figure src="lemus-rojas.jpg" alt="A woman with curly dark hair and glasses" >}}
 ## Mairelys Lemus-Rojas
 Metadata Lead
 
