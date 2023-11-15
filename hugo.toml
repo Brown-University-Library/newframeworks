@@ -66,8 +66,8 @@ title = 'New Frameworks to Preserve and Publish Born-Computational Art'
         identifier = "future"
         weight = 40
 
-    #[[menu.primary]]
-        #name  = "Meet the Team"
-        #url = "docs/team"
-        #identifier = "team"
-        #weight = 50
+    [[menu.primary]]
+        name  = "Meet the Team"
+        url = "docs/team"
+        identifier = "team"
+        weight = 50

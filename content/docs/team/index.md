@@ -4,7 +4,7 @@ description: "Meet the people who work on New Frameworks."
 icon: "diversity_2"
 date: "2023-08-22T13:08:03-04:00"
 lastmod: "2023-08-22T13:08:03-04:00"
-draft: true
+draft: false
 toc: true
 weight: 500
 customcss: "team.css"
@@ -25,8 +25,6 @@ Technical Lead
 ## [Cody Carvel](https://library.brown.edu/create/cds/people/cody-carvel)
 Containers and Emulation Lead
 
-Cody figured out how to deploy this site, using Reclaim Hosting.
-
 {{< figure src="wang.jpg" alt="A woman with dark hair in pigtails" >}}
 ## [Hilary Wang](https://library.brown.edu/create/libnews/hilary-wang/)
 Digital Archivist
@@ -37,5 +35,3 @@ Metadata Lead
 {{< figure src="yalkut.jpg" alt="A woman with glasses">}}
 ## [Elizabeth Yalkut](https://library.brown.edu/create/cds/people/elizabeth-yalkut/)
 Front-end Developer
-
-Elizabeth built this website, in [Hugo](https://gohugo.io), using the [Lotus Docs](https://github.com/colinwilson/lotusdocs) theme.
