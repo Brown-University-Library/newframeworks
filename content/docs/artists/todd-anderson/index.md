@@ -15,4 +15,4 @@ He is currently a co-director of the School for Poetic Computation where he also
 computational art and writing. He is perhaps best known as the host and curator of WordHack, the
 monthly language+technology talk series every third Thursday at Wonderville in New York City.
 
-{{< figure src="todd_anderson.jpg" alt="Allison, smiling"  width="400">}}
+{{< figure src="todd_anderson.jpg" alt="A man using a computer"  width="400">}}
