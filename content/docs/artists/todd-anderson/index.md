@@ -9,4 +9,10 @@ toc: false
 weight: 60
 ---
 
-Todd Anderson is a digital poet and web artist. He is the author of Hotwriting, a book of playable poems from Instar Books. He is the founder of WordHack, a monthly language+technology talk series in NYC, and a co-owner of Babycastles. He currently lives in Brooklyn and is an Assistant Professor of Code + Liberal Arts at the New School.
+Todd Anderson is a digital poet, software artist and educator interested in building machines to
+deliver creative language, experimental internet performances and computer viruses as an art form.
+He is currently a co-director of the School for Poetic Computation where he also teaches
+computational art and writing. He is perhaps best known as the host and curator of WordHack, the
+monthly language+technology talk series every third Thursday at Wonderville in New York City.
+
+{{< figure src="todd_anderson.jpg" alt="A man using a computer"  width="400">}}
