@@ -9,13 +9,13 @@ toc: false
 weight: 20
 ---
 
+{{< figure src="IMG_9614.jpg" alt="A woman smiling" width="200" class="me-3 figure float-start">}}
 
 Allison Parrish is a computer programmer, poet, and game designer whose teaching and practice address the unusual phenomena that blossom when language and computers meet. She is an Assistant Arts Professor at NYU’s Interactive Telecommunications Program.
 
 According to Ars Technica, Allison’s work “delight[s] everyone.” She was named “Best Maker of Poetry Bots” by the Village Voice in 2016, and her zine of computer-generated poems called “Compasses” received an honorary mention in the 2021 Prix Ars Electronica. Allison is the co-creator of the board game Rewordable (Clarkson Potter, 2017) and author of several books, including @Everyword: The Book (Instar, 2015) and Articulations (Counterpath, 2018). Her poetry has recently appeared in BOMB Magazine and Strange Horizons.
 
-Allison is originally from West Bountiful, Utah and currently lives in Brooklyn. 
-{{< figure src="IMG_9614.jpg" alt="A woman smiling"  width="400">}}
+Allison is originally from West Bountiful, Utah and currently lives in Brooklyn.
 
 # **Artist Statement**
 
