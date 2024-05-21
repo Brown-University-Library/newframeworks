@@ -1,12 +1,12 @@
 ---
-weight: 21
-title: "Allison Parrish Preservation Sketch"
-description: ""
+weight: 25
+title: "Gutenberg, dammit"
+description: "a corpus of every plain text file in Project Gutenberg (up until June 2016) (2018)"
 icon: "article"
 date: "2023-10-24T14:30:22-04:00"
 lastmod: "2023-10-24T14:30:22-04:00"
 draft: true
-toc: false
+toc: true
 ---
 
 Brownie powder cookie soufflé jujubes biscuit jujubes gingerbread. Chocolate cake gummi bears croissant chocolate bar gummi bears liquorice. Pie jelly-o macaroon danish pie.
