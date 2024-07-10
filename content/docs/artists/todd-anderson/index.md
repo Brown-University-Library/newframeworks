@@ -28,3 +28,7 @@ My audience is any active internet user, especially people that like to browse t
 **Who are your biggest artistic influences?**
 
 For this project specifically I was inspired by Elan Lee's alternate reality games, Mark Fingerhut's malware art, and Christine Love's visual novel about browsing the early internet Digital: A Love Story.
+
+### Preservation Sketch
+
+Read how we preserved [Todd Anderson's work, *An Experience*](docs/preservation-sketches/anderson/index.md).

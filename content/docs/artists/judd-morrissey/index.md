@@ -17,3 +17,7 @@ Judd Morrissey is a writer and code artist who creates poetic systems across a r
 He is the creator of digital literary works including The Precession: An 80 Foot Long Internet Art Performance Poem (2011), The Last Performance [dot org] (2009), The Jew's Daughter (Electronic Literature Collection, 2006), and My Name is Captain, Captain (Eastgate Systems, 2002).
 
 He is a recipient of acknowledgments including a Creative Capital / Andy Warhol Foundation Arts Writers Grant and a Fulbright Scholar’s Award in Digital Culture.
+
+### Preservation Sketch
+
+Read how we preserved [Judd Morrissey's work, *My Name is Captain, Captain*](docs/preservation-sketches/morrissey/index.md).

@@ -37,3 +37,7 @@ I do not know!
 
 My influences are always under development, but as pertains to this project one of my major literary
 influences is Gwendolyn Brooks.
+
+### Preservation Sketch
+
+Read how we preserved [Lillian-Yvonne Bertram's work, *Forever Gwen Brooks*](docs/preservation-sketches/bertram/index.md).

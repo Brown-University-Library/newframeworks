@@ -38,10 +38,11 @@ googleAnalytics = 'G-NXPV06ZJH9'
         weight = 10
 
     [[menu.primary]]
-        name  = "Preservation Sketches"
-        url = "docs/preservation-sketches"
-        identifier = "sketches"
-        weight = 20
+  	name = "Preservation Sketches"
+  	identifier = "preservation-sketches"
+  	url = "/docs/preservation-sketches/"
+  	weight = 20
+	
 
     [[menu.primary]]
         name  = "Contact"

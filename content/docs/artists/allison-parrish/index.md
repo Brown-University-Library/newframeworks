@@ -47,3 +47,6 @@ seriously.
 
 lots of folks but the poet whose work I'm always turning back to is Jackson Mac Low
 
+### Preservation Sketch
+
+Read how we preserved [Allison Parrish's work, *Gutenberg, dammit*](docs/preservation-sketches/allison/index.md).
