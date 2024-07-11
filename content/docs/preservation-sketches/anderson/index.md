@@ -8,7 +8,7 @@ lastmod: "2023-10-24T14:30:58-04:00"
 draft: false
 toc: false
 ---
-{{< figure src="an_experience.png" alt="A colorful background with a parchment scroll and a kite" width="600" class="me-3 figure float-start" caption="A screenshot of the kite character in An Experience.">}}
+{{< figure src="an_experience.png" alt="A colorful background with a parchment scroll and a kite" width="600" class="ms-3 figure float-end" caption="A screenshot of the kite character in An Experience.">}}
 
 Preservation Lead: Cody Carvel
 
