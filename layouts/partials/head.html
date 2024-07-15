@@ -36,13 +36,13 @@
     {{ end }}
     <script src="{{ $js.RelPermalink }}" {{ if hugo.IsProduction }} integrity="{{ $js.Data.Integrity }}" {{ end -}} defer></script>
     <!-- Plausible Analytics Config -->
-    {{- if not .Site.IsServer }}
+    {{- if not hugo.IsServer }}
     {{ if and (.Site.Params.plausible.scriptURL) (.Site.Params.plausible.dataDomain) -}}
     {{- partialCached "head/plausible" . }}
     {{- end -}}
     {{- end -}}
     <!-- Google Analytics v4 Config -->
-    {{- if not .Site.IsServer }}
+    {{- if not hugo.IsServer }}
     {{- if .Site.GoogleAnalytics }}
     {{- template "_internal/google_analytics.html" . -}}
     {{- end -}}
