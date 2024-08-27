@@ -25,6 +25,10 @@ Technical Lead
 ## [Cody Carvel](https://library.brown.edu/create/cds/people/cody-carvel)
 Containers and Emulation Lead
 
+{{< figure src="vo.jpg" alt="A smiling women with dark hair and glasses">}}
+## [Khanh Vo](https://library.brown.edu/create/cds/people/khanh-vo/)
+Digital Humanities Specialist
+
 {{< figure src="wang.jpg" alt="A woman with dark hair in pigtails" >}}
 ## [Hilary Wang](https://library.brown.edu/create/libnews/hilary-wang/)
 Digital Archivist
