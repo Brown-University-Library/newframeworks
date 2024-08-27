@@ -2,6 +2,7 @@ baseURL = 'https://newframeworks.digitalscholarship.brown.edu'
 languageCode = 'en-us'
 title = 'New Frameworks to Preserve and Publish Born-Computational Art'
 googleAnalytics = 'G-NXPV06ZJH9'
+disableKinds = ['taxonomy', 'term']
 
 [module]
     [[module.imports]]
