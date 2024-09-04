@@ -43,10 +43,11 @@ I try to be playful and make work that wears its own production on its sleeve. S
 manage to pull it off, though. I think my audience is people who speak English but don't take it too
 seriously.
 
+
 **Who are your biggest artistic influences?**
 
 lots of folks but the poet whose work I'm always turning back to is Jackson Mac Low
 
 ### Preservation Sketch
 
-Read how we preserved [Allison Parrish's work, *Gutenberg, dammit*](docs/preservation-sketches/allison/index.md).
+Read how we preserved [Allison Parrish's work, Gutenberg, dammit](/docs/preservation-sketches/parrish).

@@ -6,16 +6,11 @@ disableKinds = ['taxonomy', 'term']
 
 [module]
     [[module.imports]]
-        path = "github.com/elizabethyalkut/lotusdocs"
+        path = "github.com/colinwilson/lotusdocs"
         disable = false
     [[module.imports]]
         path = "github.com/gohugoio/hugo-mod-bootstrap-scss/v5"
         disable = false
-
-# [markup]
-  # [markup.goldmark]
-    # [markup.goldmark.renderer]
-      #unsafe = true # https://jdhao.github.io/2019/12/29/hugo_html_not_shown/
 
 [params]
     [params.footer]
@@ -39,11 +34,10 @@ disableKinds = ['taxonomy', 'term']
         weight = 10
 
     [[menu.primary]]
-  	name = "Preservation Sketches"
-  	identifier = "preservation-sketches"
-  	url = "/docs/preservation-sketches/"
-  	weight = 20
-	
+        name = "Preservation Sketches"
+        identifier = "preservation-sketches"
+        url = "/docs/preservation-sketches/"
+        weight = 20
 
     [[menu.primary]]
         name  = "Contact"
