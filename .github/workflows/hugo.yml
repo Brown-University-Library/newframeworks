@@ -57,5 +57,5 @@ jobs:
       #    uploads: |
       #      ./public => /home/newframe/public_html/
           uploads: |
-            ./public => /home/newframe/public_html/
+            ./public => /home/newframe/www/
           delete: 'true'
