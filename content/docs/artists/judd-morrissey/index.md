@@ -10,7 +10,7 @@ weight: 40
 ---
 
 
-{{< figure src="morrissey_headshot.jpg" alt="A man wearing a polo shirt, shorts, and sneakers, standing on a gallery plinth, as if he is a work of art"  width="150" class="me-3 figure float-start">}}
+{{< figure src="morrissey_headshot.jpg" alt="A man wearing a polo shirt, shorts, and sneakers, standing on a gallery plinth, as if he is a work of art"  width="300" class="me-3 figure float-start">}}
 
 Judd Morrissey is a writer and code artist who creates poetic systems across a range of platforms incorporating computational text, internet art, live performance and augmented reality.
 
