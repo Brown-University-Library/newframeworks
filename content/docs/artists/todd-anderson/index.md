@@ -8,7 +8,7 @@ draft: false
 toc: false
 weight: 60
 ---
-{{< figure src="todd_anderson.jpg" alt="A man using a computer"  width="200" class="me-3 figure float-start">}} Todd Anderson is a digital poet, software artist and educator interested in building machines to deliver creative language, experimental internet performances and computer viruses as an art form. He is currently a co-director of the School for Poetic Computation where he also teaches computational art and writing. He is perhaps best known as the host and curator of WordHack, the monthly language+technology talk series every third Thursday at Wonderville in New York City.
+{{< figure src="todd_anderson.jpg" alt="A man using a computer"  width="250" class="me-3 figure float-start">}} Todd Anderson is a digital poet, software artist and educator interested in building machines to deliver creative language, experimental internet performances and computer viruses as an art form. He is currently a co-director of the School for Poetic Computation where he also teaches computational art and writing. He is perhaps best known as the host and curator of WordHack, the monthly language+technology talk series every third Thursday at Wonderville in New York City.
 
 # **Artist Statement**
 
