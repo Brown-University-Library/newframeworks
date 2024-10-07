@@ -36,6 +36,6 @@ statement?**
 Who owns language? Who owns the evolutionary tidal flow of words written by innumerable
 ephemeral bodies? AI challenges not just ownership but the idea of identity.
 
-### Preservation Sketch
+## Preservation Sketch
 
 Read how we preserved [David Jhave Johnston's work, *ReRites*](docs/preservation-sketches/johnston/index.md).
