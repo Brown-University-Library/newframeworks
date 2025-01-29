@@ -25,6 +25,10 @@
     {{- $style = $style | minify | fingerprint "sha384" }}
     {{- end -}}
     <link rel="stylesheet" href="{{ $style.RelPermalink }}" {{ if hugo.IsProduction }} integrity="{{ $style.Data.Integrity }}" {{ end -}} />
+     <!-- CDS CSS -->
+     {{ $scss := resources.Get "scss/cds.scss" }}
+     {{ $style := $scss | css.Sass | resources.Fingerprint }}
+     <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}"> 
     <!-- Custom CSS -->
     {{- $options := dict "enableSourceMap" true }}
     {{- if hugo.IsProduction}}

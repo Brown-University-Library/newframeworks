@@ -1,20 +1,9 @@
-// relative links
-/*.main-content a[href^="/docs/"] {
-    font-weight: 600;
-    color: white;
-    background-color: rgba(blue, 1);
-    border: solid 2px blue;
-    border-radius: .5rem;
-    padding: 1rem 2rem;
-    transition: all 0.5s ease-out;
-    &:hover,
-    &:active {
-        color: blue;
-        background-color: white;
-        border-color: blue;
-    }
+// hack to remove the unused sections on the landing page until
+// LotusDocs fixes the bug where they show up no matter what
+#featureGrid,
+#imageCompare {
+  display: none;
 }
-*/
 
 .docs-content .bertam-figure figcaption {
   width: 200px; /* Or match this to the actual image width */
@@ -31,5 +20,4 @@
   text-align: center;
   font-style: italic;
 }
-
 

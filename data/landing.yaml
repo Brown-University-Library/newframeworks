@@ -4,24 +4,7 @@
 hero:
   enable: true
   weight: 10
-
-  # backgroundImage:
-    # path: "images/templates/hero"
-    #filename:
-      #desktop: "gradient-desktop.webp"
-      #mobile: "gradient-mobile.webp"
-
-  # badge:
-  #   text: v0.0.2
-  #   color: primary # primary, secondary, success, danger, warning, info, light, dark
-  #   pill: false # boolean
-  #   soft: true # boolean
-
-  # titleLogo:
-  #   path: "images/logos"
-  #   filename: "title_logo.png"
-  #   alt: "Lotus Docs Logo"
-  #   height: 80px
+  template: hero
 
   title: "New Frameworks"
   subtitle: "to Preserve and Publish Born-Computational Art"
@@ -45,30 +28,11 @@ hero:
 
   info: "This project is developing new frameworks for long-term preservation and presentation of born-computational art. Preserving born-computational work can be challenging because platforms, hardware, and software are often updated or replaced, changing and even degrading how the original art is displayed. Through containerization, a portable, low-cost method of preserving and presenting the code, operating system, and text, as well as experiments with emulation and other options, our team is working to preserve the original work even if its infrastructure has been altered or discontinued. This project is in process - please check back on the model sketches we produce! We hope to complete the project in the middle of 2024."
 
-# Features Grid
+# Disables Features Grid, do not remove
 features:
   enable: false
   weight: 20
 
-  title: Project goals
-  #subtitle: Lotus Docs is a highly configurable Hugo documentation theme. Yet, with the default configuration you can deploy and publish your documentation site in a matter of minutes. Check out some core features below.
-
-  items:
-    - title: Containers
-      icon: deployed_code
-      description: We will work to create new and reproducible frameworks to preserve and publish works using containerization, interfaces to view the containers, documentation to describe the work, and videos to capture the work in its original instantiation.
-
-    - title: Sharable
-      icon: hub
-      description: The models we create need to have repository templates and interoperable data with the largest organizations in the electronic literature field (elmcip, electronic literature organization)
-
-    - title: Preserve
-      icon: photo_album
-      description: Preserve a copy of the text, where allowable by the artists, that can be used by researchers to study born-digital work for machine - actionable research. Can digital humanists study heterogeneous born - digital art utilizing distant reading ?
-
-    - title: Support
-      icon: person_add
-      description: This project aims to explore reproducible models to preserve multimedia works that are otherwise difficult to preserve. This is a particularly hard problem for early career or independent artists who do not have the benefit of institutional support. This project aims to help support those artists for which there is not currently much support available.
 
 # Disables image comparison section, do not remove
 image_compare:
