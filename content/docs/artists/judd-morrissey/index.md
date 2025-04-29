@@ -29,9 +29,11 @@ The work, My Name is Captain, Captain, is a partial record of the mystery and my
 In revisiting this older work, I am newly aware of the concern for memory at the core of my poetics, the desire to commemorate the wonder of life when it is experienced as a clarifying symbolic pattern, as “leaps in the night” to reference Helene Cixous, the making of memory as a series of unfolding epiphanies, beautiful abundances that mirror my most deeply lodged desires and illusions. In this work being preserved, the phrase negative culpability, a twist on Keats, contains a question at the core of poetic inquiry: How can I embrace unknowing while being accountable to my discoveries?
 
 **Who is your audience?**
+
 I will defer to Gertrude Stein and answer with all sincerity: myself and strangers.
 
 **Who are your biggest artistic influences?**
+
 Is hard to escape our initial historical mentors who we meet at our most formative educational moments. For me, some of the most clearly evident of these were James Joyce, Maurice Blanchot, and Rilke. At the same time, it has been above all my closest collaborators who continue to form my aesthetic identity within the contemporary: Goat Island, Lori Talley, Mark Jeffery, Ava Aviva Avnisan. And then there are the echoing voices of all of my teachers, and my students who continue to guide me through the tumultuous acceleration of cultural accountability and change.
 
 ## Preservation Sketch

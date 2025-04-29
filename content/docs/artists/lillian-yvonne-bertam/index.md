@@ -14,8 +14,7 @@ Lillian-Yvonne Bertram is an African American writer, poet, artist, and educator
 
 # **Artist Statement**
 
-**Why is the work that the New Frameworks project is working to
-preserve important to you?**
+**Why is the work that the New Frameworks project is working to preserve important to you?**
 
 For me it represents a particular moment in my writing with computation, so there is sentimental
 value in that regard. It is also important to me because it serves, I hope, to bring and elevate
@@ -26,19 +25,15 @@ work.
 
 In general: I would like my work with computational methods to illuminate the ways computational
 determinism and codes have always been a feature of structured anti-Blackness and oppression of
-marginalized people. Alongside that, I grapple with what most artists and writers grapple with: how
-to keep evolving and growing in one's artistic practice; to create new work that is stimulating for me
-to make and for a reader to read. I always struggle with the limits of language to convey lived
-experience, particularly the nuances that exist in nonlinear ways at the intersections of race, gender,
-and class.
+marginalized people. Alongside that, I grapple with what most artists and writers grapple with: how to keep evolving and growing in one's artistic practice; to create new work that is stimulating for me to make and for a reader to read. I always struggle with the limits of language to convey lived experience, particularly the nuances that exist in nonlinear ways at the intersections of race, gender, and class.
 
 **Who is your audience?**
+
 I do not know!
 
 **Who are your biggest artistic influences?**
 
-My influences are always under development, but as pertains to this project one of my major literary
-influences is Gwendolyn Brooks.
+My influences are always under development, but as pertains to this project one of my major literary influences is Gwendolyn Brooks.
 
 ## Preservation Sketch
 
