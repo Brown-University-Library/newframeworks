@@ -29,6 +29,8 @@ Digital preservation of this sort requires oversight at regular intervals to ens
 
 A particular area of concern is the ever-changing nature of web design and the rate at which sites and pages change their code, URLs, or disappear altogether. Because Anderson's work is a Chrome extension that depends on certain sites having been coded in the ways he encountered them while building the extension, a major overhaul of sites such as Amazon, Wikipedia, or even the source for advertising networks could result in An Experience not functioning as intended.  If, for some reason, our QEMU-based solution ceases to work on future hardware, we recorded the majority of the interactive features Anderson implemented for An Experience using screen capture software. 
 
+View the work's preservation collection and documentation in [the Brown Digital Repository](https://repository.library.brown.edu/studio/collections/bdr:rc64wxvb/).
+
 ### References
 [^1]: Anderson T. An Experience: A Chrome Extension-Based Alternate Reality Game [Internet]. Brown University; 2017 [cited 2024 Mar 1]. Available from: https://doi.org/10.26300/9gss-2j22
 [^2]: Conifer [Internet]. [cited 2024 Feb 20]. Conifer. Available from: https://conifer.rhizome.org

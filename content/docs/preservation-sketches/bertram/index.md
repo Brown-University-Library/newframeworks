@@ -46,6 +46,8 @@ This approach is useful to those who:
 
 The approach has limitations, of course, as well. It may not be practical for larger, more complex works that integrate libraries more extensively. It is also worth noting that all code, to some extent, is a product of its time. We may assume that standards-compliant JavaScript from 2024 will run in 2064, but this remains to be seen. 
 
+View the work's preservation collection and documentation in [the Brown Digital Repository](https://repository.library.brown.edu/studio/collections/bdr:hmbqypcc/).
+
 ### References
 [^1]: Brooks G. RIOT. [cited 2024 Mar 1]. Available from: https://thirdworldpressfoundation.org/products/riot
 [^2]: Engel, D, and Phillips J. “Introducing ‘Code Resituation’: Applying the Concept of Minimal Intervention to the Conservation Treatment of Software-based Art.” Electronic Media Review [Internet]. [cited 2024 Feb 20]. Available from: https://resources.culturalheritage.org/emg-review/volume-5-2017-2018/engel-2/

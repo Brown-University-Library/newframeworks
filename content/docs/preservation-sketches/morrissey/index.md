@@ -60,6 +60,8 @@ There are variety of reasons this preservation model might be useful for other b
 
 	To further complicate the conversation around emulation and virtualization, WINE also facilitates the use of (exclusively) Windows applications in non-Windows environments. There is also the important recognition that relying on emulation and virtualization tools create yet another software dependency that will eventually become obsolete.[^2][^3]
 
+View the work's preservation collection and documentation in [the Brown Digital Repository](https://repository.library.brown.edu/studio/collections/bdr:mb9egraq/).
+
 ### References
 [^1]: Logan D. Adobe Flash Support Ending - Updates and Alternatives to Flash - AWEBCO [Internet]. 2020 [cited 2024 Mar 1]. Available from: https://www.awebco.com/blog/adobe-flash-support-ending/
 [^2]: WineHQ [Internet]. [cited 2024 Mar 1]. WineHQ - Run Windows applications on Linux, BSD, Solaris and macOS. Available from: https://www.winehq.org/

@@ -45,6 +45,8 @@ For multimodal work, the components to be preserved are very specific to this wo
 
 While the original codes may be preserved and made accessible, at the rate at which AI technology and computation move, the code must constantly be recreated and retrained. Thus, by creating an event inspired by Johnston’s work using advances in GenerativeAI, the model encourages others in the future to reimagine how events with human and AI poetry might be recreated with existing technologies.
 
+View the work's preservation collection and documentation in [the Brown Digital Repository](https://repository.library.brown.edu/studio/collections/bdr:uvvqngh2/).
+
 ### References
 [^1]: David Jhave Johnston. Second Artist Interview. [Personal interview, 1 November] Zoom; 2022.
 [^2]: npm [Internet]. 2023 [cited 2024 Mar 1]. jquery. Available from: https://www.npmjs.com/package/jquery

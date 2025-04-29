@@ -23,5 +23,7 @@ Each of these projects consists of Python-based scripts that interact with Guten
 
 As with a majority of digital-born objects that require preservation, vigilance around the frequency of quality control checks is a must. While the Dockerfiles used to build the images and run the containers are likely to work on future versions of Docker, the Dockerfile standard is itself a versioned product that could drop or change certain commands in our files; Docker could also add commands or switches that improve the way our files run. The project team at the Brown University Library aims to regularly return to test the containerized versions of these projects to ensure they remain functional well into the future in tandem with the files stored in the Library’s digital repository. Recognizing all software is subject to eventual obsolescence, digital preservation by nature is subject to turning tides of software maintenance and abandonment. In a future scenario should Docker Desktop ever become a paid product, our docker-related files should require little effort to work on other container products such as Podman.[^1]
 
+View the work's preservation collection and documentation in [the Brown Digital Repository](https://repository.library.brown.edu/studio/collections/bdr:5w2wpu8v/).
+
 ### References
 [^1]: Podman Desktop - Containers and Kubernetes | Podman Desktop [Internet]. [cited 2024 Mar 1]. Available from: https://podman-desktop.io/
